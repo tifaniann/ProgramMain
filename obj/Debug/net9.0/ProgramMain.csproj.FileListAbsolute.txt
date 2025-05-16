@@ -1,0 +1,14 @@
+C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\bin\Debug\net9.0\ProgramMain.exe
+C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\bin\Debug\net9.0\ProgramMain.deps.json
+C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\bin\Debug\net9.0\ProgramMain.runtimeconfig.json
+C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\bin\Debug\net9.0\ProgramMain.dll
+C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\bin\Debug\net9.0\ProgramMain.pdb
+C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\obj\Debug\net9.0\ProgramMain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\obj\Debug\net9.0\ProgramMain.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\obj\Debug\net9.0\ProgramMain.AssemblyInfo.cs
+C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\obj\Debug\net9.0\ProgramMain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\obj\Debug\net9.0\ProgramMain.dll
+C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\obj\Debug\net9.0\refint\ProgramMain.dll
+C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\obj\Debug\net9.0\ProgramMain.pdb
+C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\obj\Debug\net9.0\ProgramMain.genruntimeconfig.cache
+C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\obj\Debug\net9.0\ref\ProgramMain.dll
