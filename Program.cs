@@ -7,6 +7,11 @@ namespace ConsoleAppRobot
     {
         static void Main(string[] args)
         {
+            // int firstValue = 500;
+            // int secondValue = 600;
+            // int largerValue;
+            // largerValue = Math.Max(firstValue, secondValue);
+            // Console.WriteLine(largerValue);
 
             Console.WriteLine(@"Selamat datang di mesin C# Tifani!
             Silahkan pilih menu
@@ -18,7 +23,7 @@ namespace ConsoleAppRobot
             int pilihan_user;
             try
             {
-                Console.Write("Pilihan:");
+                Console.Write("Pilihan: ");
                 pilihan_user = int.Parse(Console.ReadLine());
                 if (pilihan_user == 1)
                 {

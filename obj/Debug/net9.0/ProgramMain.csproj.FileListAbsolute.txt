@@ -7,6 +7,7 @@ C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\obj\Debug\net
 C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\obj\Debug\net9.0\ProgramMain.AssemblyInfoInputs.cache
 C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\obj\Debug\net9.0\ProgramMain.AssemblyInfo.cs
 C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\obj\Debug\net9.0\ProgramMain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\obj\Debug\net9.0\ProgramMain.sourcelink.json
 C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\obj\Debug\net9.0\ProgramMain.dll
 C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\obj\Debug\net9.0\refint\ProgramMain.dll
 C:\Users\Admin\Documents\PROGRAM TIFANI\latihan_csharp\ProgramMain\obj\Debug\net9.0\ProgramMain.pdb
