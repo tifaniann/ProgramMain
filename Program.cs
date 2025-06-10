@@ -7,11 +7,6 @@ namespace ConsoleAppRobot
     {
         static void Main(string[] args)
         {
-            // int firstValue = 500;
-            // int secondValue = 600;
-            // int largerValue;
-            // largerValue = Math.Max(firstValue, secondValue);
-            // Console.WriteLine(largerValue);
 
             Console.WriteLine(@"Selamat datang di mesin C# Tifani!
             Silahkan pilih menu
