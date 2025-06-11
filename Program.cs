@@ -10,10 +10,9 @@ namespace ConsoleAppRobot
 
             Console.WriteLine(@"Selamat datang di mesin C# Tifani!
             Silahkan pilih menu
-            1. Mengecek angka
-            2. Perhitungan gaji karyawan
-            3. kalkulator
-            4. Perhitungan faktorial");
+            1. Mengecek angka       2. Perhitungan gaji karyawan
+            3. kalkulator           4. Perhitungan faktorial
+            5. Grades");
 
             int pilihan_user;
             try
@@ -40,6 +39,11 @@ namespace ConsoleAppRobot
                 {
                     faktor m_faktor = new faktor();
                     m_faktor.faktorRun();
+                }
+                else if (pilihan_user == 5)
+                {
+                    Grades m_grade = new Grades();
+                    m_grade.gradeRun();
                 }
                 else
                 {
