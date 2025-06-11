@@ -184,7 +184,7 @@ public class Grades()
 
             // Student         Grade
             // Sophia:         92.2    A-
-        decimal deviationScore = (decimal)currentStudentGrade - finalsum;
+        decimal deviationScore = (decimal)currentStudentGrade - finalsum; // selisih nilai asli dan extra
         
         Console.WriteLine($"{currentStudent}\t\t{finalsum}\t\t\t{currentStudentGrade}\t\t{currentStudentLetterGrade}\t{extraSum} ({deviationScore} pts)");
     }
