@@ -66,7 +66,7 @@ public class test()
         // SKU = Stock Keeping Unit. 
         // SKU value format: <product #>-<2-letter color code>-<size code>
         string sku = "";
-        
+
 
         Console.Write("Input SKU (format 01-MN-L): ");
         sku = Console.ReadLine().ToUpper();
@@ -133,6 +133,13 @@ public class test()
         Console.WriteLine("----------------------------");
         Console.WriteLine($"{"Size".PadRight(20)}{"Color".PadRight(20)}Type");
         Console.WriteLine($"{size.PadRight(20)}{color.PadRight(20)}{type}");
+
+
+        //================================================//
+        for (int i = 0; i <= 10; i++)
+        {
+            Console.WriteLine(i);
+        }
 
     }
 }

@@ -12,7 +12,8 @@ namespace ConsoleAppRobot
             Silahkan pilih menu
             1. Mengecek angka       2. Perhitungan gaji karyawan
             3. kalkulator           4. Perhitungan faktorial
-            5. Grades               6. Testing");
+            5. Grades               6. Testing
+            7. FizzBuzz");
 
             int pilihan_user;
             try
@@ -49,6 +50,11 @@ namespace ConsoleAppRobot
                 {
                     test m_test = new test();
                     m_test.testRun();
+                }
+                else if (pilihan_user == 7)
+                {
+                    FizzBuzz m_FizzBuzz = new FizzBuzz();
+                    m_FizzBuzz.FBRun();
                 }
                 else
                 {
