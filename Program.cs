@@ -13,7 +13,7 @@ namespace ConsoleAppRobot
             1. Mengecek angka       2. Perhitungan gaji karyawan
             3. kalkulator           4. Perhitungan faktorial
             5. Grades               6. Testing
-            7. FizzBuzz");
+            7. FizzBuzz             8. Game Battle");
 
             int pilihan_user;
             try
@@ -55,6 +55,11 @@ namespace ConsoleAppRobot
                 {
                     FizzBuzz m_FizzBuzz = new FizzBuzz();
                     m_FizzBuzz.FBRun();
+                }
+                else if (pilihan_user == 8)
+                {
+                    GameBattle m_GameBattle = new GameBattle();
+                    m_GameBattle.GbRun();
                 }
                 else
                 {
