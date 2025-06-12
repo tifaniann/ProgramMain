@@ -12,7 +12,7 @@ namespace ConsoleAppRobot
             Silahkan pilih menu
             1. Mengecek angka       2. Perhitungan gaji karyawan
             3. kalkulator           4. Perhitungan faktorial
-            5. Grades");
+            5. Grades               6. Testing");
 
             int pilihan_user;
             try
@@ -44,6 +44,11 @@ namespace ConsoleAppRobot
                 {
                     Grades m_grade = new Grades();
                     m_grade.gradeRun();
+                }
+                else if (pilihan_user == 6)
+                {
+                    test m_test = new test();
+                    m_test.testRun();
                 }
                 else
                 {
