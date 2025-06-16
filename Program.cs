@@ -13,7 +13,8 @@ namespace ConsoleAppRobot
             1. Mengecek angka       2. Perhitungan gaji karyawan
             3. kalkulator           4. Perhitungan faktorial
             5. Grades               6. Testing
-            7. FizzBuzz             8. Game Battle");
+            7. FizzBuzz             8. Game Battle
+            9. Pet Characteristics  10. Palindrome");
 
             int pilihan_user;
             try
@@ -60,6 +61,16 @@ namespace ConsoleAppRobot
                 {
                     GameBattle m_GameBattle = new GameBattle();
                     m_GameBattle.GbRun();
+                }
+                else if (pilihan_user == 9)
+                {
+                    PetCharacter m_PetCharacter = new PetCharacter();
+                    m_PetCharacter.PetRun();
+                }
+                else if (pilihan_user == 10)
+                {
+                    Palindrome m_Palindrome = new Palindrome();
+                    m_Palindrome.PdRun();
                 }
                 else
                 {
