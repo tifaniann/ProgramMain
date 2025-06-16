@@ -14,7 +14,8 @@ namespace ConsoleAppRobot
             3. kalkulator           4. Perhitungan faktorial
             5. Grades               6. Testing
             7. FizzBuzz             8. Game Battle
-            9. Pet Characteristics  10. Palindrome");
+            9. Pet Characteristics  10. Palindrome
+            11. Test");
 
             int pilihan_user;
             try
@@ -71,6 +72,11 @@ namespace ConsoleAppRobot
                 {
                     Palindrome m_Palindrome = new Palindrome();
                     m_Palindrome.PdRun();
+                }
+                else if (pilihan_user == 11)
+                {
+                    Testing m_Testing = new Testing();
+                    m_Testing.RkRun();
                 }
                 else
                 {
