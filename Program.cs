@@ -15,81 +15,76 @@ namespace ConsoleAppRobot
             5. Grades               6. Testing
             7. FizzBuzz             8. Game Battle
             9. Pet Characteristics  10. Palindrome
-            11. Test                12. Pet Character");
+            11. Test                12. Pet Character
+            13. Student Data");
 
             int pilihan_user;
             try
-            {
-                Console.Write("Pilihan: ");
-                pilihan_user = int.Parse(Console.ReadLine());
-                if (pilihan_user == 1)
                 {
-                    cekAngka m_cekAngka = new cekAngka();
-                    m_cekAngka.AngkaRun();
+                    Console.Write("Pilihan: ");
+                    pilihan_user = int.Parse(Console.ReadLine());
+
+                    switch (pilihan_user)
+                    {
+                        case 1:
+                            cekAngka m_cekAngka = new cekAngka();
+                            m_cekAngka.AngkaRun();
+                            break;
+                        case 2:
+                            Gajikry m_gaji = new Gajikry();
+                            m_gaji.GajiRun();
+                            break;
+                        case 3:
+                            calcu m_calcu = new calcu();
+                            m_calcu.calcuRun();
+                            break;
+                        case 4:
+                            faktor m_faktor = new faktor();
+                            m_faktor.faktorRun();
+                            break;
+                        case 5:
+                            Grades m_grade = new Grades();
+                            m_grade.gradeRun();
+                            break;
+                        case 6:
+                            test m_test = new test();
+                            m_test.testRun();
+                            break;
+                        case 7:
+                            FizzBuzz m_FizzBuzz = new FizzBuzz();
+                            m_FizzBuzz.FBRun();
+                            break;
+                        case 8:
+                            GameBattle m_GameBattle = new GameBattle();
+                            m_GameBattle.GbRun();
+                            break;
+                        case 9:
+                            PetCharacter m_PetCharacter = new PetCharacter();
+                            m_PetCharacter.PetRun();
+                            break;
+                        case 10:
+                            Palindrome m_Palindrome = new Palindrome();
+                            m_Palindrome.PdRun();
+                            break;
+                        case 11:
+                            Testing m_Testing = new Testing();
+                            m_Testing.RkRun();
+                            break;
+                        case 13:
+                            Student m_Student = new Student();
+                            m_Student.studentRun();
+                            break;
+                        default:
+                            Console.WriteLine("Pilihan tidak tersedia");
+                            break;
+                    }
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Pilihan tidak tersedia");
+                    throw;
                 }
 
-                else if (pilihan_user == 2)
-                {
-                    Gajikry m_gaji = new Gajikry();
-                    m_gaji.GajiRun();
-                }
-                else if (pilihan_user == 3)
-                {
-                    calcu m_calcu = new calcu();
-                    m_calcu.calcuRun();
-                }
-                else if (pilihan_user == 4)
-                {
-                    faktor m_faktor = new faktor();
-                    m_faktor.faktorRun();
-                }
-                else if (pilihan_user == 5)
-                {
-                    Grades m_grade = new Grades();
-                    m_grade.gradeRun();
-                }
-                else if (pilihan_user == 6)
-                {
-                    test m_test = new test();
-                    m_test.testRun();
-                }
-                else if (pilihan_user == 7)
-                {
-                    FizzBuzz m_FizzBuzz = new FizzBuzz();
-                    m_FizzBuzz.FBRun();
-                }
-                else if (pilihan_user == 8)
-                {
-                    GameBattle m_GameBattle = new GameBattle();
-                    m_GameBattle.GbRun();
-                }
-                else if (pilihan_user == 9)
-                {
-                    PetCharacter m_PetCharacter = new PetCharacter();
-                    m_PetCharacter.PetRun();
-                }
-                else if (pilihan_user == 10)
-                {
-                    Palindrome m_Palindrome = new Palindrome();
-                    m_Palindrome.PdRun();
-                }
-                else if (pilihan_user == 11)
-                {
-                    Testing m_Testing = new Testing();
-                    m_Testing.RkRun();
-                }
-                
-                else
-                {
-                    Console.WriteLine("pilihan tidak tersedia");
-                }
-
-            }
-            catch (System.Exception)
-            {
-                Console.WriteLine("pilihan tidak tersedia");
-                throw;
-            }
             // int.Parse(Console.ReadLine());
 
             Console.WriteLine("terima kasih");

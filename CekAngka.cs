@@ -154,21 +154,35 @@ public class cekAngka
     public class cek_array
     {
         public int[] list_angka = new int[5];
+        public List<int> list_genap = new List<int>();
+        public List<int> list_ganjil = new List<int>();
         public int countgenap;
 
         public void isi_array()
         {
             countgenap = 0;
+            list_genap.Clear();
             for (int i = 0; i < list_angka.Length; i++)
             {
                 if (list_angka[i] % 2 == 0)
                 {
                     countgenap++;
+                    list_genap.Add(list_angka[i]);
+                }
+                else if (list_angka[i] % 2 == 1)
+                {
+                    list_ganjil.Add(list_angka[i]);
                 }
             }
             Console.WriteLine($"jumlah bilangan genap adalah {countgenap}");
+            Console.WriteLine($"bilangan genap tersebut adalah: {string.Join(", ", list_genap)}");
+            Console.WriteLine($"bilangan ganjil tersebut adalah: {string.Join(", ", list_ganjil)}");
+            Console.WriteLine($"bilangan terbesar adalah: {list_angka.Max()}");
+            Console.WriteLine($"bilangan terkecil adalah: {list_angka.Min()}");
+            Console.WriteLine($"rata-rata bilangan adalah: {list_angka.Average()}");
         }
     }
+
 
     public class ArrayManipulatif
     {
