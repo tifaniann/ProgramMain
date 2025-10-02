@@ -15,7 +15,7 @@ namespace ConsoleAppRobot
             5. Grades               6. Testing
             7. FizzBuzz             8. Game Battle
             9. Pet Characteristics  10. Palindrome
-            11. Test");
+            11. Test                12. Pet Character");
 
             int pilihan_user;
             try
@@ -78,6 +78,7 @@ namespace ConsoleAppRobot
                     Testing m_Testing = new Testing();
                     m_Testing.RkRun();
                 }
+                
                 else
                 {
                     Console.WriteLine("pilihan tidak tersedia");

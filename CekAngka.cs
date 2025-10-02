@@ -7,6 +7,7 @@ public class cekAngka
         primaBilangan b = new primaBilangan();
         bilangan_gg gg = new bilangan_gg();
         cek_array Arracek = new cek_array();
+        ArrayManipulatif Am = new ArrayManipulatif();
 
         bool ulangilagi = true;
         while (ulangilagi)
@@ -15,6 +16,7 @@ public class cekAngka
             Console.WriteLine("1. cek bilangan prima");
             Console.WriteLine("2. cek bilangan ganjil/genap");
             Console.WriteLine("3. cek array");
+            Console.WriteLine("4. Array Manipulatif");
             Console.Write("pilihan: ");
 
             int pilihan;
@@ -37,6 +39,11 @@ public class cekAngka
                 {
                     cek_pil = true;
                     Console.WriteLine("ARRAY(mengecek jumlah bilangan genap dalam sebuah list angka)");
+                }
+                else if (pilihan == 4)
+                {
+                    cek_pil = true;
+                    Console.WriteLine("ARRAY Manipulatif(Array Manipulation and Calculation)");
                 }
                 else
                 {
@@ -66,6 +73,11 @@ public class cekAngka
                                 Arracek.list_angka[i] = int.Parse(Console.ReadLine());
                             }
                             Arracek.isi_array();
+                        }
+                        else if (pilihan == 4)
+                        {
+                            int[] inputArray = new int[] { 1 };
+                            int result = Am.AMRun(inputArray);
                         }
                     }
                     catch (FormatException)
@@ -157,4 +169,41 @@ public class cekAngka
             Console.WriteLine($"jumlah bilangan genap adalah {countgenap}");
         }
     }
+
+    public class ArrayManipulatif
+    {
+        public int AMRun(int[] arr)
+        {
+            if (arr == null || arr.Length == 0)
+            {
+                return 0;
+            }
+
+            List<int> genapArray = new List<int>();
+            List<int> genapSquared = new List<int>();
+
+            foreach (int n in arr)
+            {
+                if (n % 2 == 0)
+                {
+                    genapArray.Add(n);
+                    genapSquared.Add(n * n);
+                }
+            }
+
+            if (genapSquared.Count == 0)
+            {
+                return 0;
+            }
+
+            int sumSquared = genapSquared.Sum();
+
+            Console.WriteLine("Even numbers: {" + string.Join(", ", genapArray) + "}");
+            Console.WriteLine("Squared even numbers: {" + string.Join(", ", genapSquared) + "}");
+            Console.WriteLine("Sum of squared even numbers: " + sumSquared);
+
+            return sumSquared;
+        }
+    }
+
 }
