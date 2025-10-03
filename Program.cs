@@ -16,7 +16,8 @@ namespace ConsoleAppRobot
             7. FizzBuzz             8. Game Battle
             9. Pet Characteristics  10. Palindrome
             11. Test                12. Pet Character
-            13. Student Data");
+            13. Student Data        14. Two Numbs
+            15. Reserve Words");
 
             int pilihan_user;
             try
@@ -73,6 +74,14 @@ namespace ConsoleAppRobot
                         case 13:
                             Student m_Student = new Student();
                             m_Student.studentRun();
+                            break;
+                        case 14:
+                            twoNumbs m_tn = new twoNumbs();
+                            m_tn.twoNumbsRun();
+                            break;
+                        case 15:
+                            Reserve m_resv = new Reserve();
+                            m_resv.reserveRun();
                             break;
                         default:
                             Console.WriteLine("Pilihan tidak tersedia");
